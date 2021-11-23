@@ -7,6 +7,7 @@ let About = () => {
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Smarbits - About Us</title>
+        <link rel="canonical" href="https://smartbits.co.in/whoweare/" />
         <meta name="description" content="Providing best possible solutions in the industry." />
         <meta name="keywords" content="Smarbits, Smartbit, Software, Computer, Consultancy" />
         <meta name="country" content="IN" />
