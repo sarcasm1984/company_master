@@ -13,6 +13,8 @@ let Offerings = () => {
             <meta name="country" content="IN" />
             <meta name="language" content="en-IN" />
         </Head>
+        <body></body>
+
     </>
   );
 

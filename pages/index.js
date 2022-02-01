@@ -15,13 +15,15 @@ let Home = () => {
         <meta name="language" content="en-IN" />
       </Head>
       <body>
-        <div className="jumbotron">
+        <div className="px-4 py-5 my-5 text-center">
           <h1 className="display-4">Welcome to Smartbits</h1>
           <p className="lead">We help businesses drive digital innovation</p>
           <hr className="my-4" />
           <p>We are here to help businesses achieve digital transformation. To know more about us click below.</p>
           <p className="lead">
-            <Link className="btn btn-primary btn-lg" href="/whoweare">Learn more</Link>
+            <Link className="btn btn-primary btn-lg" href="/whoweare">
+              <a className='btn btn-primary btn-lg'>Learn more</a>
+            </Link>
           </p>
         </div>
         <div className="container-fluid">
@@ -29,7 +31,7 @@ let Home = () => {
             <div className="col-lg-4 col-md-6 col-sm-12 col-xs-12">
               <div className="card">
                 <div className="card-body">
-                  <h5 className="card-title">Simple<i className="float-right bi bi-tools"></i></h5>
+                  <h5 className="card-title">Simple<i className="fas fa-tools"></i></h5>
                   <p className="card-text">We aim to deliver simple solutions to solve complex problems</p>
                 </div>
               </div>
@@ -37,7 +39,7 @@ let Home = () => {
             <div className="col-lg-4 col-md-6 col-sm-12 col-xs-12">
               <div className="card">
                 <div className="card-body">
-                  <h5 className="card-title">Seamless<i className="float-right bi bi-gear"></i></h5>
+                  <h5 className="card-title">Seamless<i className="fas fa-cog"></i></h5>
                   <p className="card-text">We aim to make the experience of our clients seamless with us</p>
                 </div>
               </div>
@@ -45,7 +47,7 @@ let Home = () => {
             <div className="col-lg-4 col-md-6 col-sm-12 col-xs-12">
               <div className="card">
                 <div className="card-body">
-                  <h5 className="card-title">Quality<i className="float-right bi bi-check-all"></i></h5>
+                  <h5 className="card-title">Quality<i className="fas fa-check-double"></i></h5>
                   <p className="card-text">We aim for higher standards and will not compromise on quality of deliverables.</p>
                 </div>
               </div>
