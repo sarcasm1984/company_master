@@ -5,6 +5,7 @@ let Home = () => {
   const element = (
     <>
       <Head>
+        <meta name="google-site-verification" content="degRT11PjBGa3WSX3KmTp75KG82gN68G3ZYf93AJAwo" />
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Welcome to Smarbits</title>
