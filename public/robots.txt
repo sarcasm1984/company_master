@@ -6,4 +6,4 @@ Allow: /
 User-agent: Googlebot
 Disallow: /nogooglebot/, /api/*
 
-Sitemap: https://www.example.com/api/sitemap
+Sitemap: https://www.smartbits.co.in/api/sitemap
