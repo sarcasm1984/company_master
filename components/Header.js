@@ -1,6 +1,11 @@
 import Link from 'next/link'
 
 let Header = () => {
+
+    const closeCanvas = () => {
+        var btn = document.getElementById("btnClose");
+        btn.click();
+    }
     
     const element = (
         <nav className="navbar navbar-expand-lg navbar-light" style={{backgroundColor: "#427BD2"}}>
@@ -43,13 +48,13 @@ let Header = () => {
                     </div>
                     <div className="offcanvas-body">
                         <Link href="/">
-                            <a className="nav-link" aria-current="page">Home</a>
+                            <a className="nav-link" onClick={closeCanvas}>Home</a>
                         </Link>
                         <Link href="/whoweare">
-                            <a className="nav-link">Who We Are</a>
+                            <a className="nav-link" onClick={closeCanvas}>Who We Are</a>
                         </Link>
                         <Link href="/whatwedo">
-                            <a className="nav-link">What We Do</a>
+                            <a className="nav-link" onClick={closeCanvas}>What We Do</a>
                         </Link>
                     </div>
                 </div>
